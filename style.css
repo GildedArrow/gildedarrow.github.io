@@ -1,7 +1,32 @@
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: green;
+}
+
 body {
-	background-color: #666666;
+	background-color: #333333;
 	margin: 0;
 	font-family: Arial;
+}
+
+.logo {
+	width: 25%;
+	height: auto;
+}
+
+.paragraph-container {
+	margin-inline: 100px;
+	text-align: left;
+}
+
+.doodlesimg {
+	width: 25%;
+	height: auto;
+	float: right;
+	margin-inline: 100px;
 }
 
 .text-container {
@@ -12,7 +37,7 @@ body {
 }
 
 .header {
-	background-color: #666666;
+	background-color: #333333;
 	padding: 0px;
 	text-align: left;
 	font-family: Arial;
@@ -23,7 +48,21 @@ body {
 	text-align: justify;
 }
 
-img {
-	width: 25%;
+.whatis {
+	padding: 100px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.worldmap {
+	width: 100%;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+table, th, td {
+		border: 1px solid #eeeeee;
+		padding: 3px;
 }
