@@ -1,17 +1,33 @@
 body {
-	background-color: #e3d39f;
+	background-color: #666666;
 	margin: 0;
 	font-family: Arial;
 }
 
 .text-container {
 	text-align: center;
+	color: #ffffff;
+	border: 5px double #eeeeee;
+	padding: 10px;
 }
 
 .header {
-	background-color: #81e2fc;
-	padding: 20px;
+	background-color: #666666;
+	padding: 0px;
 	text-align: left;
-	color: #ffffff;
 	font-family: Arial;
+	color: #ffffff;	
+}
+
+.nav-list {
+	text-align: justify;
+}
+
+ul {
+	
+}
+
+img {
+	width: 25%;
+	height: auto;
 }
